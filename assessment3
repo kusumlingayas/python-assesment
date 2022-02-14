@@ -1,0 +1,9 @@
+import random
+print("enter the list")
+thislist = ["Ginger", "Willow", "Scout", "Roscoe", "Bear", "Kobe", "Baxter", "Zara", "Fiona", "Milo", "Oakley", "Dakota", "Prince", "Bruno", "Panda", "Dexter", "Ziggy", "Roscoe", "Lucy", "Boomer", "Fiona", "Ella", "Emma", "Oakley"]
+print(thislist)
+print("length of list is ", len(thislist))
+listDic = {}
+for c in range(len(thislist)):
+    listDic[thislist[c]] = thislist.count(thislist[c])
+print(listDic)
